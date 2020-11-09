@@ -1,0 +1,12 @@
+C:\Users\feder\Desktop\Progetti\Windows10_postinstall\Windows10_postinstall\bin\Debug\Windows10_postinstall.exe.config
+C:\Users\feder\Desktop\Progetti\Windows10_postinstall\Windows10_postinstall\bin\Debug\Windows10_postinstall.exe
+C:\Users\feder\Desktop\Progetti\Windows10_postinstall\Windows10_postinstall\bin\Debug\Windows10_postinstall.pdb
+C:\Users\feder\Desktop\Progetti\Windows10_postinstall\Windows10_postinstall\bin\Debug\Windows10_postinstall.xml
+C:\Users\feder\Desktop\Progetti\Windows10_postinstall\Windows10_postinstall\obj\Debug\Windows10_postinstall.vbprojAssemblyReference.cache
+C:\Users\feder\Desktop\Progetti\Windows10_postinstall\Windows10_postinstall\obj\Debug\Windows10_postinstall.main.resources
+C:\Users\feder\Desktop\Progetti\Windows10_postinstall\Windows10_postinstall\obj\Debug\Windows10_postinstall.Resources.resources
+C:\Users\feder\Desktop\Progetti\Windows10_postinstall\Windows10_postinstall\obj\Debug\Windows10_postinstall.vbproj.GenerateResource.cache
+C:\Users\feder\Desktop\Progetti\Windows10_postinstall\Windows10_postinstall\obj\Debug\Windows10_postinstall.vbproj.CoreCompileInputs.cache
+C:\Users\feder\Desktop\Progetti\Windows10_postinstall\Windows10_postinstall\obj\Debug\Windows10_postinstall.exe
+C:\Users\feder\Desktop\Progetti\Windows10_postinstall\Windows10_postinstall\obj\Debug\Windows10_postinstall.xml
+C:\Users\feder\Desktop\Progetti\Windows10_postinstall\Windows10_postinstall\obj\Debug\Windows10_postinstall.pdb
