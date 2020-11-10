@@ -8,11 +8,11 @@ Imports System.Runtime.InteropServices
 
 ' Controllare i valori degli attributi degli assembly
 
-<Assembly: AssemblyTitle("Windows10_postinstall")>
-<Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("")>
+<Assembly: AssemblyTitle("Windows 10 Post-install utility")>
+<Assembly: AssemblyDescription("Graphic tool for configure Windows 10 after a fresh installation")>
+<Assembly: AssemblyCompany("Federico Arduini (faffolao)")>
 <Assembly: AssemblyProduct("Windows10_postinstall")>
-<Assembly: AssemblyCopyright("Copyright ©  2020")>
+<Assembly: AssemblyCopyright("Copyright © 2020 Federico Arduini (faffolao)")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
