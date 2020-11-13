@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tweakList>
+  <tweak>
+    <name>Hide 3D Objects folder from This PC</name>
+    <callFunction>Hide3dObjectsFromThisPC</callFunction>
+    <revertFunction>Show3dObjectsFromThisPC</revertFunction>
+  </tweak>
+</tweakList>

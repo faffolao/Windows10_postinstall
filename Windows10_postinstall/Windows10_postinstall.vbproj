@@ -116,6 +116,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="tweaksFunctions.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="main.resx">

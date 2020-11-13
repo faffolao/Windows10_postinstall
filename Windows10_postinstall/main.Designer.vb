@@ -29,8 +29,8 @@ Partial Class main
         Me.linkGithub = New System.Windows.Forms.LinkLabel()
         Me.lblInspiration = New System.Windows.Forms.Label()
         Me.listTweaks = New System.Windows.Forms.CheckedListBox()
-        Me.btnDisableSel = New System.Windows.Forms.Button()
-        Me.btnDisableAll = New System.Windows.Forms.Button()
+        Me.btnApplySel = New System.Windows.Forms.Button()
+        Me.btnApplyAll = New System.Windows.Forms.Button()
         Me.btnRestore = New System.Windows.Forms.Button()
         CType(Me.pictureApp, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -90,29 +90,29 @@ Partial Class main
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.listTweaks.CheckOnClick = True
         Me.listTweaks.FormattingEnabled = True
-        Me.listTweaks.Items.AddRange(New Object() {"Test1", "Test2"})
         Me.listTweaks.Location = New System.Drawing.Point(14, 95)
         Me.listTweaks.Name = "listTweaks"
         Me.listTweaks.Size = New System.Drawing.Size(527, 346)
         Me.listTweaks.TabIndex = 5
         '
-        'btnDisableSel
+        'btnApplySel
         '
-        Me.btnDisableSel.Location = New System.Drawing.Point(14, 447)
-        Me.btnDisableSel.Name = "btnDisableSel"
-        Me.btnDisableSel.Size = New System.Drawing.Size(119, 23)
-        Me.btnDisableSel.TabIndex = 6
-        Me.btnDisableSel.Text = "Disable selected"
-        Me.btnDisableSel.UseVisualStyleBackColor = True
+        Me.btnApplySel.Enabled = False
+        Me.btnApplySel.Location = New System.Drawing.Point(14, 447)
+        Me.btnApplySel.Name = "btnApplySel"
+        Me.btnApplySel.Size = New System.Drawing.Size(119, 23)
+        Me.btnApplySel.TabIndex = 6
+        Me.btnApplySel.Text = "Apply selected"
+        Me.btnApplySel.UseVisualStyleBackColor = True
         '
-        'btnDisableAll
+        'btnApplyAll
         '
-        Me.btnDisableAll.Location = New System.Drawing.Point(351, 447)
-        Me.btnDisableAll.Name = "btnDisableAll"
-        Me.btnDisableAll.Size = New System.Drawing.Size(75, 23)
-        Me.btnDisableAll.TabIndex = 7
-        Me.btnDisableAll.Text = "Disable all"
-        Me.btnDisableAll.UseVisualStyleBackColor = True
+        Me.btnApplyAll.Location = New System.Drawing.Point(351, 447)
+        Me.btnApplyAll.Name = "btnApplyAll"
+        Me.btnApplyAll.Size = New System.Drawing.Size(75, 23)
+        Me.btnApplyAll.TabIndex = 7
+        Me.btnApplyAll.Text = "Apply all"
+        Me.btnApplyAll.UseVisualStyleBackColor = True
         '
         'btnRestore
         '
@@ -130,8 +130,8 @@ Partial Class main
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(555, 482)
         Me.Controls.Add(Me.btnRestore)
-        Me.Controls.Add(Me.btnDisableAll)
-        Me.Controls.Add(Me.btnDisableSel)
+        Me.Controls.Add(Me.btnApplyAll)
+        Me.Controls.Add(Me.btnApplySel)
         Me.Controls.Add(Me.listTweaks)
         Me.Controls.Add(Me.lblInspiration)
         Me.Controls.Add(Me.linkGithub)
@@ -157,7 +157,7 @@ Partial Class main
     Friend WithEvents linkGithub As LinkLabel
     Friend WithEvents lblInspiration As Label
     Friend WithEvents listTweaks As CheckedListBox
-    Friend WithEvents btnDisableSel As Button
-    Friend WithEvents btnDisableAll As Button
+    Friend WithEvents btnApplySel As Button
+    Friend WithEvents btnApplyAll As Button
     Friend WithEvents btnRestore As Button
 End Class
